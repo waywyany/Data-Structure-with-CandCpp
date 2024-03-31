@@ -23,7 +23,7 @@ int main() {
 		iteration++;
 	}
 	t2 = clock();
-	printf("ºÄÊ±ÁË %lf s\n", (double)((t2 - t1) / 1.0 / CLOCKS_PER_SEC));
+	printf("è€—æ—¶ï¼š %lf s\n", (double)((t2 - t1) / 1.0 / CLOCKS_PER_SEC));
 
 	ListStack<int> sta2;
 	iteration = 0;
@@ -39,7 +39,7 @@ int main() {
 		iteration++;
 	}
 	t4 = clock();
-	printf("ºÄÊ±ÁË %lf s\n", (double)((t4 - t3) / 1.0 / CLOCKS_PER_SEC));
+	printf("è€—æ—¶äº† %lf s\n", (double)((t4 - t3) / 1.0 / CLOCKS_PER_SEC));
 
 	return 0;
 }
